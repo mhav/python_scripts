@@ -1,8 +1,6 @@
-import math
-
-a = 2
-b = 3
-
+"""
+checks if a is a power of b
+"""
 def is_power(a,b):
 	if a == 1:
 		return True
@@ -11,4 +9,7 @@ def is_power(a,b):
 	else:
 		return False
 
-print(is_power(a,b))
+print(is_power(2,3))
+print(is_power(8,2))
+print(is_power(18,3))
+print(is_power(10,5))
