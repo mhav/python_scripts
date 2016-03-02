@@ -1,7 +1,7 @@
-import math
-
-m=3
-n=4
+"""
+implementation of the ackermann function,
+see http://en.wikipedia.org/wiki/Ackermann_function
+"""
 
 def ackermann(m,n):
     if m == 0:
@@ -19,4 +19,6 @@ def ackermann(m,n):
     else:
         print("Not defined for these entries")
 
-print(ackermann(m,n))
+print(ackermann(3,4))
+print(ackermann(4,7))
+print(ackermann(8,9))
