@@ -1,4 +1,6 @@
-
+"""
+checks if a word is a palindrome
+"""
 def first(word):
 	return word[0]
 
