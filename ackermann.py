@@ -20,5 +20,3 @@ def ackermann(m,n):
         print("Not defined for these entries")
 
 print(ackermann(3,4))
-print(ackermann(4,7))
-print(ackermann(8,9))
